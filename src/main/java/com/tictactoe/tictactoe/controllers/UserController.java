@@ -1,4 +1,4 @@
-package controllers;
+package com.tictactoe.tictactoe.controllers;
 
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,8 +14,8 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import entities.User;
-import services.UserService;
+import com.tictactoe.tictactoe.entities.User;
+import com.tictactoe.tictactoe.services.UserService;
 
 @CrossOrigin(origins="*")
 @RestController

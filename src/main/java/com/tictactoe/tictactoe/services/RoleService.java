@@ -1,9 +1,9 @@
-package services;
+package com.tictactoe.tictactoe.services;
 
-import entities.Role;
+import com.tictactoe.tictactoe.entities.Role;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import repositories.RoleRepository;
+import com.tictactoe.tictactoe.repositories.RoleRepository;
 import java.util.List;
 
 @Service

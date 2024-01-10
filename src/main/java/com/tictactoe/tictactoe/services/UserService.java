@@ -1,9 +1,9 @@
-package services;
+package com.tictactoe.tictactoe.services;
 
-import entities.User;
+import com.tictactoe.tictactoe.entities.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import repositories.UserRepository;
+import com.tictactoe.tictactoe.repositories.UserRepository;
 
 import java.util.List;
 

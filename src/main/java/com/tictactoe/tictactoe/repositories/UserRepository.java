@@ -1,6 +1,6 @@
-package repositories;
+package com.tictactoe.tictactoe.repositories;
 
-import entities.User;
+import com.tictactoe.tictactoe.entities.User;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,4 +1,4 @@
-package entities;
+package com.tictactoe.tictactoe.entities;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.DBRef;

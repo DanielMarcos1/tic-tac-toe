@@ -1,7 +1,7 @@
-package controllers;
+package com.tictactoe.tictactoe.controllers;
 
-import entities.Role;
-import services.RoleService;
+import com.tictactoe.tictactoe.entities.Role;
+import com.tictactoe.tictactoe.services.RoleService;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
